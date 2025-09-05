@@ -10,6 +10,12 @@ const ChipsInput = () => {
       setInput("");
     }
   };
+
+  const handleDeleteChip = (index) => {
+    const chipsCopy = [...chips];
+    chipsCopy.splice(index, 1);
+    setChips(chipsCopy);
+  };
   return (
     <>
       <div className="flex">
@@ -25,8 +31,11 @@ const ChipsInput = () => {
       </div>
 
       <div>
-        {chips.map((item) => (
-          <h6 key={item}>{item}</h6>
+        {chips.map((item, index) => (
+          <div key={index} className="flex">
+            <h6 className="mr-2">{item}</h6>
+            <button onClick={() => handleDeleteChip(index)}>X</button>
+          </div>
         ))}
       </div>
     </>
