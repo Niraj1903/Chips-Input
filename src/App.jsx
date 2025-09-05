@@ -1,5 +1,11 @@
+import ChipsInput from "./ChipsInput";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <ChipsInput />
+    </>
+  );
 }
 
 export default App;
