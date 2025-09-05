@@ -1,12 +1,53 @@
-# React + Vite
+#Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple Chips Input component built with React, styled using Tailwind CSS.
 
-Currently, two official plugins are available:
+Add chips by typing and pressing Enter.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Remove chips by clicking the × button.
 
-## Expanding the ESLint configuration
+Clean layout and responsive design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+⚛️ React (via Vite
+) — fast dev environment.
+
+🎨 Tailwind CSS — utility-first CSS framework for styling.
+
+📦 Installation & Setup
+
+# 1. Clone the repository
+
+git clone https://github.com/Niraj1903/Chips-Input
+cd Chips-Input
+
+# 2. Install dependencies
+
+npm install
+
+# 3. Run the development server
+
+npm run dev
+
+🧰 Tailwind CSS Setup (already configured)
+
+PostCSS + Tailwind via Vite.
+
+Main CSS file includes Tailwind base styles:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+💡 Features
+
+✅ Keyboard support: Add chips via Enter.
+
+✅ Delete chips with a click.
+
+✅ Responsive horizontal chip layout.
+
+✅ Clean, centered UI.
+
+✅ Fully customizable via Tailwind.
